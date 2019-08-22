@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Farro|Lobster|Montserrat|Raleway|Roboto|Roboto+Condensed&display=swap");
+
 .App {
   text-align: center;
 }
@@ -30,4 +32,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Html and body style */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-weight: bold !important;
+}
+
+/* navbar style */
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.navbar-brand img {
+  max-width: 130px;
+  margin: -8px;
+}
+
+/* footer style */
+footer {
+  background-color: white;
+  color: black;
+  padding-top: 2rem;
+}
+footer img {
+  max-width: 130px;
+}
+
+footer hr {
+  border-style: inset;
+  border-width: 1px;
+}
+
+/* login style */
+.side-img {
+  max-width: 30%;
 }
